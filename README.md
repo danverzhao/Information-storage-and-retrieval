@@ -1,2 +1,2 @@
-# Projects-
-test
+# Information storage and retrieval
+The functions normalises each word in a file and stores it in a binary tree. Each word also has a linked list of the file names that contains it and the tf-idf value for the term. To retrieve the files you can send in an array as arrgument (char *words[] = { "nasa", "mars", "earth", NULL };) and it will return a list of files arranged in descending tf-idf values related to the words given.
